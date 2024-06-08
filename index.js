@@ -21,6 +21,10 @@ app.use(cors({
 app.use(cookieParser())
 app.use('/auth', UserRouter)
 
+app.post('/auth/signup', (req, res) => {
+    // Your signup logic here
+  });
+
 
 
 mongoose.connect('mongodb+srv://kelas:L71noEVRLPMX9Rth@kelas.eei6kwp.mongodb.net/authentication')
