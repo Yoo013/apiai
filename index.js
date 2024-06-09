@@ -14,9 +14,10 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://apiai-apii.vercel.app",
+    origin: "https://frontend-v4fu.vercel.app",
+    methods: ["GET", "POST", "PUT"],
     headers: {
-        "Access-Control-Allow-Origin": "https://apiai-apii.vercel.app",
+        "Access-Control-Allow-Origin": "https://frontend-v4fu.vercel.app/",
         "Access-Control-Allow-Credentials": true
     },
 }));
