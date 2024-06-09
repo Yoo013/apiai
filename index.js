@@ -14,7 +14,7 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    origin: "https://frontend-v4fu.vercel.app",
+    origin: "https://frontend-edsa-client.vercel.app",
     methods: ["GET", "POST", "PUT"],
     headers: {
         "Access-Control-Allow-Origin": "https://frontend-v4fu.vercel.app/",
